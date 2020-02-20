@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+  }
+
+.logo{
+    height: 110px;
+    
+}
+
+header{
+    background-color: #ffffff;
+    height: 115px;
+    width: 100%;
+    position: fixed;
+  }
+
+ header a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    color: #000000;
+    padding:50px;
+    height: 20px;
+}
+
+nav{
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+header a:hover{
+    background-color: #ff6b5a;
+    color: #ffffff;
+    transition: 0.2s ease-in;
+    padding: 50px;
+}
+  
